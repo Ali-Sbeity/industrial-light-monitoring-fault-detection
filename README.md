@@ -73,9 +73,9 @@ An Exponential Moving Average (EMA) is applied:
 
 y(k) = (1-\alpha)y(k-1) + \alpha x(k)
 
-Where:
-Alpha = 0.1
-X(k) = raw ADC reading
+Where:  
+Alpha = 0.1  
+X(k) = raw ADC reading  
 Y(k) = filtered value
 
 This reduces measurement noise and prevents unstable decision behavior.
