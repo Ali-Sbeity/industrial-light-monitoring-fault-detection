@@ -179,7 +179,7 @@ Switch (currentState) {
 ```
 
 Full source code:
-The complete Arduino sketch for this project is provided below. You can view or download the code from the file: [industrial-light-monitoring-fault-detection]
+The complete Arduino sketch for this project is provided below. You can view or download the code from the file: [industrial-light-monitoring-fault-detection](https://github.com/Ali-Sbeity/industrial-light-monitoring-fault-detection/blob/main/industrial-light-fault-detection.ino)
 
 
 ## Control Logic
