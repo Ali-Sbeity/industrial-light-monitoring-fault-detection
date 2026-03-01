@@ -4,9 +4,9 @@ Adaptive industrial light monitoring system with fault detection. Continuously m
 
 ## Industrial Light Monitoring & Fault Detection System
 	
-**Author:** Ali Sbeity
-**Version:** 1.0
-**Copyright:** (c) 2026 Ali Sbeity
+**Author:** Ali Sbeity  
+**Version:** 1.0  
+**Copyright:** (c) 2026 Ali Sbeity  
 **License:** MIT License
 
 
@@ -213,5 +213,5 @@ After completing this project, the following competencies are demonstrated:
 - IoT remote monitoring integration
 
 
-**Copyright:** (c) 2026 Ali Sbeity
+**Copyright:** (c) 2026 Ali Sbeity  
 **License:** MIT License
