@@ -128,6 +128,42 @@ Action:
 - Returns to MONITORING when stable
 
 
+## Code snippet
+
+```cp
+Float errorRef  = abs(filteredValue – referenceLight);
+Float errorRate = abs(filteredValue – previousFiltered);
+
+Switch (currentState) {
+  Case MONITORING:
+    displayBar(filteredValue);  // LED bar graph
+    if (errorRate > suddenThreshold && errorRef > alarmOnThreshold) {
+      currentState = ALARM;
+      alarmStartTime = millis();
+    }
+    Break;
+
+  Case ALARM:
+    alarmPattern();  // LE“ blink + Buzzer
+    if (millis() - alarmStartTime > alarmDuration) {
+      currentState = MONITORING;
+    }
+    Break;
+
+  Case NOISE:
+    noisePattern();  // Noise alert
+    if (!noiseDetected && errorRef < alarmOffThreshold) {
+      currentState = MONITORING;
+    }
+    Break;
+
+  Case CALIBRATION:
+    startCalibration(); // Measure environment & store reference
+    break;
+}
+```
+
+
 ## Control Logic
 
 ### Hysteresis Decision Mechanism
