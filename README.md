@@ -19,6 +19,15 @@ The system continuously measures ambient light intensity through an LDR sensor, 
 A structured Finite State Machine (FSM) ensures deterministic operation, non-blocking timing, and robust event-driven behavior.
 
 
+## Demonstration Video
+
+A short demonstration of the system in operation is available here:
+
+[LinkedIn]
+
+[Youtube]
+
+
 ## System Architecture
 
 The system is composed of four functional subsystems:
@@ -237,9 +246,6 @@ After completing this project, the following competencies are demonstrated:
 - Robust FSM implementation
 - Persistent parameter management
 - Real-time non-blocking embedded programming
-
-
-## Demonstration
 
 
 ## Future Improvements
