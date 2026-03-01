@@ -19,14 +19,6 @@ The system continuously measures ambient light intensity through an LDR sensor, 
 A structured Finite State Machine (FSM) ensures deterministic operation, non-blocking timing, and robust event-driven behavior.
 
 
-## Demonstration Video
-
-A short demonstration of the system in operation is available here:
-
-[LinkedIn]
-
-[Youtube]
-
 
 ## System Architecture
 
@@ -137,6 +129,20 @@ Action:
 - Returns to MONITORING when stable
 
 
+## Demonstration Video
+
+A short demonstration of the system in operation is available here:
+
+[LinkedIn]
+
+[Youtube]
+
+
+## Hardware Schematic
+
+The complete circuit schematic, is available here: [industrial-light-monitoring-fault-detection-schematic]
+
+
 ## Code snippet
 
 ```cp
@@ -173,7 +179,8 @@ Switch (currentState) {
 ```
 
 Full source code:
-The complete Arduino sketch for this project is provided below. You can view or download the code from the file:
+The complete Arduino sketch for this project is provided below. You can view or download the code from the file: [industrial-light-monitoring-fault-detection]
+
 
 ## Control Logic
 
