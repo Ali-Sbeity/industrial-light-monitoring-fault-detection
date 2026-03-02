@@ -133,7 +133,8 @@ Action:
 
 A short demonstration of the system in operation is available here:
 
-[LinkedIn]
+[LinkedIn](https://www.linkedin.com/posts/ali-sbeity-r_robotics-arduino-embeddedsystems-ugcPost-7434026634522976256-mK5w?utm_source=share&utm_medium=member_android&rcm=ACoAAGUK5TkB6mFIkhRXEggy5uv9bPej4WMnw2c)
+
 
 [Youtube]
 
