@@ -67,6 +67,24 @@ The system is composed of four functional subsystems:
 - 2 push buttons (Mode / Calibration)
 - Optional RC filter capacitor
 
+The following table lists the components required to implement the system.
+
+All Components are selected to match the signal range and noise characteristics discussed in the design section.
+
+|component| |Quantity|  |Specification|
+|----|--|-----|--|------|
+|Arduino Uno|  |1|  |Atmega328P|
+|LDR|  |1|  |5-10KΩ|
+|Resistor|  |1|  |10KΩ (voltage divider)|
+|LEDs|  |4|  |5mm|
+|Buzzer|  |1|  |passive|
+|Push Buttons|  |2|  |Momentary|
+|Capacitor|  |1|  |100nF|
+
+For a detailed view of the physical components, refer to the image below.
+[Hardware Components Overview]()
+
+
 ### Signal Conditioning
 
 An Exponential Moving Average (EMA) is applied:
