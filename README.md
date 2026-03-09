@@ -159,7 +159,7 @@ A short demonstration of the system in operation is available here:
 
 ## Hardware Schematic
 
-The complete circuit schematic, is available here: [industrial-light-monitoring-fault-detection-schematic](industrial-light-fault-detection-schematic.png)
+The complete circuit schematic, is available here: [industrial-light-monitoring-fault-detection-schematic](
 
 
 ## Code snippet
