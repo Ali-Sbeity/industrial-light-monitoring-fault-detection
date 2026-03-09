@@ -82,7 +82,8 @@ All Components are selected to match the signal range and noise characteristics 
 |Capacitor|  |1|  |100nF|
 
 For a detailed view of the physical components, refer to the image below.
-[Hardware Components Overview](https://github.com/Ali-Sbeity/industrial-light-monitoring-fault-detection/blob/main/Hardware%20Components%20Overview.jpg)
+[Hardware Components Overview](https://github.com/Ali-Sbeity/industrial-light-monitoring-fault-detection/blob/main/Hardware%20Components%20Overview.png)
+
 
 
 ### Signal Conditioning
